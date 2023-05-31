@@ -1,6 +1,8 @@
 # SIMPLE CALCULATOR USING REACT JS
 
-## APP.JS
+## PROGRAM:
+
+### APP.JS
 ```java
 import React, { useState } from 'react';
 import './App.css';
@@ -58,7 +60,7 @@ function App() {
 
 export default App;
 ```
-## APP.CSS:
+### APP.CSS:
 
 ```java
 .App {
