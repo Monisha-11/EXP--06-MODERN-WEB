@@ -6,7 +6,7 @@ To create a simple calculator using react js
 
 ## SOFTWARE:
 
-Visual Studio Code
+Visual Studio Code.
 
 ## ALGORITHM:
 
