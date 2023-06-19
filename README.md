@@ -4,10 +4,6 @@
 
 To create a simple calculator using react js
 
-## SOFTWARE:
-
-Visual Studio Code.
-
 ## ALGORITHM:
 
 1) Set up the React environment: Install Node.js and create a new React project using create-react-app. Open your terminal or command prompt and run the following commands
@@ -18,7 +14,6 @@ Visual Studio Code.
 6) Open your browser and visit http://localhost:3000 to see the calculator.
 
 ## PROGRAM:
-
 ### APP.JS
 ```java
 import React, { useState } from 'react';
