@@ -72,7 +72,7 @@ function App() {
 
 export default App;
 ```
-```
+```python
 word_to_append='water consumption'
 data['water consumption'] = [word +' '+ word_to_append for word in data['water consumption']]
 column_name=['Type','less care','more care','Max- Size','bears flower/not']
