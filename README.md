@@ -84,7 +84,8 @@ data=data.drop(columns=column_name,axis=1)
 df={'number': [i for i in range(1,90)],'data':
     data['Design']+" "+data['Sunlight requirement']
      +" "+data['water consumption']+" "+data['color']+
-    " "+data['Direction- North,south,east,west']+" "+data['Plant_Names']}
+    " "+data['Direction- North,south,east,west']+
+    " "+data['Plant_Names']}
 df=pd.DataFrame(df)
 df.head()
 ```
