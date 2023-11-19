@@ -74,9 +74,13 @@ export default App;
 ```
 ```python
 word_to_append='water consumption'
-data['water consumption'] = [word +' '+ word_to_append for word in data['water consumption']]
-column_name=['Type','less care','more care','Max- Size','bears flower/not']
+data['water consumption'] = [word +' '+
+      word_to_append for word in data['water consumption']]
+column_name=['Type','less care','more care',
+            'Max- Size','bears flower/not']
 data=data.drop(columns=column_name,axis=1)
+
+
 df={'number': [i for i in range(1,90)],'data': data['Design']+" "+data['Sunlight requirement']
      +" "+data['water consumption']+" "+data['color']+" "+data['Direction- North,south,east,west']+" "+data['Plant_Names']}
 df=pd.DataFrame(df)
